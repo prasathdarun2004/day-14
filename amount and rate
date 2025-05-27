@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int p,r,y;
+    float i,a,d,fs;
+    scanf("%d %d %d",&p,&r,&y);
+    i=(p*r*y)/100.0;
+    a=p+i;
+    d=(2*i)/100.0;
+    fs=a-d;
+    printf("%.2f\n%.2f\n%.2f\n%.2f\n",i,a,d,fs);
+
+    return 0;
+}

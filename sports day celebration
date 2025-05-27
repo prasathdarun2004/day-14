@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int ts, num;
+    int s,l;
+    scanf("%d %d", &ts,&num);
+    s= ts/num;
+    l= ts%num;
+    printf("%d\n%d\n",s,l);
+    return 0;
+}
